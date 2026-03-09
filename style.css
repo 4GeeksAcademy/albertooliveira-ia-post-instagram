@@ -1,4 +1,4 @@
-/* Reset general */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,20 +7,20 @@
 }
 
 body {
-    background-color: black; /* Fondo oscuro como en tu foto */
+    background-color: black;
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
 
-/* El contenedor principal (Borde verde en tu foto) */
+
 .post-container {
     background-color: white;
     width: 500px;
     border: 1px solid #dbdbdb;
 }
 
-/* Header: Logo, Texto y 3 puntos */
+
 .post-header {
     display: flex;
     justify-content: space-between;
@@ -43,18 +43,18 @@ body {
     flex-direction: column;
 }
 
-/* La imagen principal */
+
 .post-image img {
     width: 100%;
     display: block;
 }
 
-/* Contenido debajo de la foto */
+
 .post-footer {
     padding: 15px;
 }
 
-/* Fila de iconos: Corazón, Comentario, Avión y Guardar */
+
 .interaction-bar {
     display: flex;
     justify-content: space-between;
@@ -62,32 +62,32 @@ body {
     margin-bottom: 15px;
 }
 
+
+.icono-rojo {
+    color: red; 
+    cursor: pointer;
+}
+
+
+.icono-rojo:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
 .left-icons {
     display: flex;
     gap: 15px;
 }
 
-/* Texto de Likes */
+
 .likes {
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-/* El bloque de texto largo */
+
 .description {
     font-size: 14px;
     line-height: 1.4;
     text-align: justify;
-}
-
-/* Añade esto a tu bloque de CSS */
-.icono-rojo {
-    color: red; /* O puedes usar un rojo más bonito como #ed4956 */
-    cursor: pointer;
-}
-
-/* Opcional: un pequeño efecto para que se mueva al pasar el ratón */
-.icono-rojo:hover {
-    transform: scale(1.2);
-    transition: transform 0.2s;
 }
